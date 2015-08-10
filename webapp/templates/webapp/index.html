@@ -1,0 +1,38 @@
+{% extends "noraebook/base.html" %}
+
+{% block header %}
+  {% load staticfiles %}
+  <script type="text/javascript" src="{% static 'noraebook/js/vendor/jquery.js' %}"></script>
+  <script type="text/javascript" src="{% static 'noraebook/js/responsive-tables.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="row search">
+        <h3 class="subheader">Find Your Favorite Song...</h3>
+        <div class=" small-12 columns">
+          <div class="row collapse">
+            <div class="small-12 large-12  columns ">
+              <i class="fi-magnifying-glass"></i>
+              <input type="text" class="search-field" id="search-data" placeholder="your search " autocomplete="off">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 small-centered columns">
+        <table>
+          <tbody id="results">
+          </tbody>
+        </table>
+    </div>
+  </div>
+{% endblock %}
+
+
+{% block endscripts %}
+  <script type="text/javascript" src="{% static 'noraebook/js/norae-search.js' %}"></script>
+{% endblock %}

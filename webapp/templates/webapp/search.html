@@ -1,0 +1,7 @@
+{% if songs_list %}
+  {% for song in songs_list %}
+    <tr><td>{{ song.code }}</td><td>{{ song.title }}</td><td>{{ song.artist }}</td></tr>
+  {% endfor %}
+{% else %}
+  <p></p>
+{% endif %}
