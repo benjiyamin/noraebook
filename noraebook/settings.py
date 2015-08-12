@@ -24,6 +24,8 @@ SECRET_KEY = '%57f+j5(g1$p&wz1pf-gagtp$y(0=@jar&%*$#vq2@4on5-fx)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+TEMPLATE_DEBUG = DEBUG
+
 
 ALLOWED_HOSTS = []
 
@@ -38,7 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'noraebook',
-    'webapp',
+    'search',
     'submit',
 )
 
@@ -84,6 +86,11 @@ DATABASES = {
     }
 }
 
+'''
+DATABASE_USER = ''
+DATABASE_PASSWORD = ''
+DATABASE_PORT = ''
+'''
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/

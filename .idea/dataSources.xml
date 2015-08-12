@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1524153162">
-    <data-source source="LOCAL" name="Django default" uuid="cde88715-318d-46d6-886c-0929a33231cd">
+  <component name="DataSourceManagerImpl" format="xml" hash="3294104150">
+    <data-source source="LOCAL" name="noraebook db" uuid="7aa96064-2d72-4c36-8088-e63d7cfb80a5">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\millerb\Google Drive\web\noraebook\db.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
-        </library>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
-        </library>
-      </libraries>
+      <jdbc-url>jdbc:sqlite:C:\Users\millerb\Google Drive\web\noraebook\noraebook\db.sqlite3</jdbc-url>
+      <libraries />
     </data-source>
   </component>
 </project>

@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
                 ('code', models.IntegerField()),
                 ('title', models.CharField(max_length=50)),
                 ('artist', models.CharField(max_length=50)),
-                ('company', models.ForeignKey(to='webapp.Company')),
+                ('company', models.ForeignKey(to='search.Company')),
             ],
         ),
     ]

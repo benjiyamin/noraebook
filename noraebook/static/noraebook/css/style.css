@@ -78,6 +78,21 @@ a {
     font-size: 4.04rem;
 }
 
+.submit-label {
+    color: #6f6f6f;
+}
+
+.submit-button {
+    background: #27ae60;
+}
+
+/*
+.submit-button:hover {
+    background: #000000;
+}
+*/
+
+
 @media only screen and (min-width: 40.0625em) {
     .top-bar {
         background: #27ae60;

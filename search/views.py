@@ -10,7 +10,7 @@ from django.db.models import Q
 
 def index(request):
     companies_list = Company.objects.order_by('name')[:]
-    template = loader.get_template('webapp/index.html')
+    template = loader.get_template('search/index.html')
     context = RequestContext(request, {
         'current_company': 'All',
         'companies_list': companies_list,
@@ -26,7 +26,7 @@ def search(request):
                 songs_list = Song.objects.filter(Q(title__contains=search_text) | Q(artist__contains=search_text)).order_by('title')
             else:
                 songs_list = []
-            template = loader.get_template('webapp/search.html')
+            template = loader.get_template('search/search.html')
             context = RequestContext(request, {
                 'songs_list': songs_list[:10],
             })

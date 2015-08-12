@@ -5,7 +5,7 @@ import os
 import django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "noraebook.settings")
 django.setup()
-from webapp.models import Song, Company
+from search.models import Song, Company
 
 
 class SongImporter:
@@ -38,10 +38,10 @@ class SongImporter:
                 company = self.company_model.objects.filter(name=company_name)[0]
                 new_song = self.song_model(code=code, title=title, artist=artist, company=company)
                 new_song.save()
-                #log = 'Success!: %s: "%s" by %s added to the database.' % (code, title, artist)
+                log = 'Success!: %s: "%s" by %s added to the database.' % (code, title, artist)
             else:
                 log = 'Song not added: Song code %s is already in the database for %s.' % (code, company_name)
-                print(log)
+            print(log)
         return
 
 

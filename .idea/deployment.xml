@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="formul.us" createEmptyFolders="true">
+    <serverData>
+      <paths name="formul.us">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/django_projects/noraebook" local="$PROJECT_DIR$" web="noraebook" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
