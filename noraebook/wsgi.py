@@ -14,3 +14,13 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "noraebook.settings")
 
 application = get_wsgi_application()
+
+
+
+# HEROKU
+
+from dj_static import Cling
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "noraebook.settings_production")
+
+application = Cling(get_wsgi_application())

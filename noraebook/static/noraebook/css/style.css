@@ -86,20 +86,25 @@ a {
     background: #27ae60;
 }
 
-/*
 .submit-button:hover {
-    background: #000000;
+    background: #007095;
 }
-*/
+
 
 
 @media only screen and (min-width: 40.0625em) {
     .top-bar {
         background: #27ae60;
     }
+
     .top-bar-section li:not(.has-form) a:not(.button) {
         background: #27ae60;
     }
+
+    .top-bar-section li:not(.has-form) a:not(.button):hover {
+        background: #007095;
+    }
+
     .top-bar .name h1 {
         font-size: 4.04rem;
     }

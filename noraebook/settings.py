@@ -86,11 +86,6 @@ DATABASES = {
     }
 }
 
-'''
-DATABASE_USER = ''
-DATABASE_PASSWORD = ''
-DATABASE_PORT = ''
-'''
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/

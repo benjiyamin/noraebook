@@ -12,6 +12,5 @@ $(document).ready(function() {
 });
 
 function searchSuccess(response) {
-  console.log(response);
   $('#results').html(response)
 }
