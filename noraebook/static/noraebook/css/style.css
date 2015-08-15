@@ -1,7 +1,7 @@
 
 
 /* Styles for search dropdown */
-input {
+input[type="text"], input[type="number"] {
     font-size: 16px;
 }
 
