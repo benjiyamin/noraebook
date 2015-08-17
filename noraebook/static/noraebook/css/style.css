@@ -5,6 +5,19 @@ input[type="text"], input[type="number"], select {
     font-size: 16px;
 }
 
+.code-result {
+    font-size: 180%;
+    /*border: 1px solid #ccc;*/
+}
+
+.title-result {
+    font-size: 120%;
+}
+
+.artist-result {
+    font-size: 80%;
+}
+
 .search {
     position: relative;
     padding-top: 20px;

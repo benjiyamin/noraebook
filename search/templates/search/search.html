@@ -1,6 +1,16 @@
 {% if songs_list %}
   {% for song in songs_list %}
-    <tr><td>{{ song.code }}</td><td>{{ song.title }}</td><td>{{ song.artist }}</td></tr>
+    <div class="code-result small-4 medium-2 large-2 columns">
+      {{ song.code }}
+    </div>
+    <div class="song-result small-8 medium-10 large-10 columns">
+      <div class="title-result small-12 large-12 columns">
+        {{ song.title }}
+      </div>
+      <div class="artist-result small-12 large-12 columns">
+        &nbsp;{{ song.artist }}
+      </div>
+    </div>
   {% endfor %}
 {% else %}
   <p></p>

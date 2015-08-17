@@ -29,7 +29,7 @@ def search(request):
                 songs_list = []
             template = loader.get_template('search/search.html')
             context = RequestContext(request, {
-                'songs_list': songs_list[:10],
+                'songs_list': songs_list[:50],
             })
             return HttpResponse(template.render(context))
 
