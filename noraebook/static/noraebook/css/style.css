@@ -5,9 +5,12 @@ input[type="text"], input[type="number"], select {
     font-size: 16px;
 }
 
+.result {
+    border-bottom: 1px solid #ccc;
+}
+
 .code-result {
-    font-size: 180%;
-    /*border: 1px solid #ccc;*/
+    font-size: 190%;
 }
 
 .title-result {
@@ -16,6 +19,14 @@ input[type="text"], input[type="number"], select {
 
 .artist-result {
     font-size: 80%;
+}
+
+.fav-result {
+    font-size: 190%;
+}
+
+.fav-selected {
+    color: #e74c3c;
 }
 
 .search {

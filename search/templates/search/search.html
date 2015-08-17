@@ -1,14 +1,19 @@
 {% if songs_list %}
   {% for song in songs_list %}
-    <div class="code-result small-4 medium-2 large-2 columns">
-      {{ song.code }}
-    </div>
-    <div class="song-result small-8 medium-10 large-10 columns">
-      <div class="title-result small-12 large-12 columns">
-        {{ song.title }}
+    <div class="result small-12 medium-12 large-12 columns">
+      <div class="code-result small-4 medium-2 large-2 columns">
+        {{ song.code }}
       </div>
-      <div class="artist-result small-12 large-12 columns">
-        &nbsp;{{ song.artist }}
+      <div class="song-result small-7 medium-9 large-9 columns">
+        <div class="title-result small-12 large-12 columns">
+          {{ song.title }}
+        </div>
+        <div class="artist-result small-12 large-12 columns">
+          &nbsp;{{ song.artist }}
+        </div>
+      </div>
+      <div class="fav-result small-1 medium-1 large-1 columns">
+        <i class="fi-heart"></i>
       </div>
     </div>
   {% endfor %}
