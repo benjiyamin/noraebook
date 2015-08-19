@@ -6,7 +6,7 @@ from .settings import *
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
