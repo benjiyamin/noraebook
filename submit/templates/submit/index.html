@@ -2,14 +2,14 @@
 
 {% block content %}
   <div class="row">
-    <div class="large-8 medium-8 medium-centered large-centered columns">
+    <div class="large-6 medium-8 medium-centered large-centered columns">
       <div class="row search">
         <h3 class="subheader">Song not available? Submit a request to add it to our database!</h3>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="large-8 medium-8 medium-centered large-centered columns">
+    <div class="large-6 medium-8 medium-centered large-centered columns">
       <form action="/submit/" method="post">
         {% csrf_token %}
         {% for field in form %}

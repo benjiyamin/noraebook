@@ -8,87 +8,87 @@
     </ul>
     <div class="tabs-content">
       <div class="content active" id="panel1">
-          <div class="row signup-panel">
-            <div class="large-12 columns">
-                <p class="welcome">Welcome back!</p>
-                <form action="/login/login/" method="post">
-                  {% csrf_token %}
-                  <div class="row collapse">
-                    {{ login_form.username.errors }}
-                    <div class="small-2 columns">
-                      <span class="prefix"><i class="fi-torso"></i></span>
-                    </div>
-                    <div class="small-10 columns">
-                      {{ login_form.username }}
-                    </div>
-                  </div>
-                  <div class="row collapse">
-                    {{ login_form.password.errors }}
-                    <div class="small-2 columns">
-                      <span class="prefix"><i class="fi-lock"></i></span>
-                    </div>
-                    <div class="small-10 columns">
-                      {{ login_form.password }}
-                    </div>
-                  </div>
-                  <button class="submit-button">Log In!</button>
-                </form>
-            </div>
+        <div class="row signup-panel">
+          <div class="large-12 columns">
+            <p class="welcome">Welcome back!</p>
+            <form action="/login/login/" method="post">
+              {% csrf_token %}
+              <div class="row collapse">
+                {{ login_form.username.errors }}
+                <div class="small-2 columns">
+                  <span class="prefix"><i class="fi-torso"></i></span>
+                </div>
+                <div class="small-10 columns">
+                  {{ login_form.username }}
+                </div>
+              </div>
+              <div class="row collapse">
+                {{ login_form.password.errors }}
+                <div class="small-2 columns">
+                  <span class="prefix"><i class="fi-lock"></i></span>
+                </div>
+                <div class="small-10 columns">
+                  {{ login_form.password }}
+                </div>
+              </div>
+              <button class="submit-button">Log In!</button>
+            </form>
           </div>
+        </div>
       </div>
       <div class="content" id="panel2">
-          <div class="row signup-panel">
-            <div class="large-12 columns">
-                <p class="welcome">Sign up to store your favorites!</p>
-                <form action="/signup/" method="post">
-                  {% csrf_token %}
-                  {% if signup_form.errors %}
-                    <ol>
-                      {% for error in signup_form.errors %}
-                        <li><strong>{{ error|escape }}</strong></li>
-                      {% endfor %}
-                    </ol>
-                  {% endif %}
-                  <div class="row collapse">
-                    {{ signup_form.username.errors }}
-                    <div class="small-2 columns">
-                      <span class="prefix"><i class="fi-torso"></i></span>
-                    </div>
-                    <div class="small-10 columns">
-                      {{ signup_form.username }}
-                    </div>
-                  </div>
-                  <div class="row collapse">
-                    {{ signup_form.email.errors }}
-                    <div class="small-2 columns">
-                      <span class="prefix"><i class="fi-mail"></i></span>
-                    </div>
-                    <div class="small-10 columns">
-                      {{ signup_form.email }}
-                    </div>
-                  </div>
-                  <div class="row collapse">
-                    {{ signup_form.password.errors }}
-                    <div class="small-2 columns ">
-                      <span class="prefix"><i class="fi-lock"></i></span>
-                    </div>
-                    <div class="small-10 columns">
-                      {{ signup_form.password }}
-                    </div>
-                  </div>
-                  <div class="row collapse">
-                    {{ signup_form.confirm.errors }}
-                    <div class="small-2 columns ">
-                      <span class="prefix"><i class="fi-lock"></i></span>
-                    </div>
-                    <div class="small-10 columns">
-                      {{ signup_form.confirm }}
-                    </div>
-                  </div>
-                  <button class="submit-button">Sign Up!</button>
-                </form>
-            </div>
+        <div class="row signup-panel">
+          <div class="large-12 columns">
+            <p class="welcome">Sign up to store your favorites!</p>
+            <form action="/signup/" method="post">
+              {% csrf_token %}
+              {% if signup_form.errors %}
+                <ol>
+                  {% for error in signup_form.errors %}
+                    <li><strong>{{ error|escape }}</strong></li>
+                  {% endfor %}
+                </ol>
+              {% endif %}
+              <div class="row collapse">
+                {{ signup_form.username.errors }}
+                <div class="small-2 columns">
+                  <span class="prefix"><i class="fi-torso"></i></span>
+                </div>
+                <div class="small-10 columns">
+                  {{ signup_form.username }}
+                </div>
+              </div>
+              <div class="row collapse">
+                {{ signup_form.email.errors }}
+                <div class="small-2 columns">
+                  <span class="prefix"><i class="fi-mail"></i></span>
+                </div>
+                <div class="small-10 columns">
+                  {{ signup_form.email }}
+                </div>
+              </div>
+              <div class="row collapse">
+                {{ signup_form.password.errors }}
+                <div class="small-2 columns ">
+                  <span class="prefix"><i class="fi-lock"></i></span>
+                </div>
+                <div class="small-10 columns">
+                  {{ signup_form.password }}
+                </div>
+              </div>
+              <div class="row collapse">
+                {{ signup_form.confirm.errors }}
+                <div class="small-2 columns ">
+                  <span class="prefix"><i class="fi-lock"></i></span>
+                </div>
+                <div class="small-10 columns">
+                  {{ signup_form.confirm }}
+                </div>
+              </div>
+              <button class="submit-button">Sign Up!</button>
+            </form>
           </div>
+        </div>
       </div>
     </div>
   </div>

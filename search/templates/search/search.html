@@ -1,4 +1,4 @@
-
+{% load staticfiles %}
 
 {% if songs_list %}
   {% csrf_token %}
@@ -29,7 +29,6 @@
       </div>
     </div>
   {% endfor %}
-  {% load staticfiles %}
   <script type="text/javascript" src="{% static 'noraebook/js/norae-favorite.js' %}"></script>
 {% else %}
   <p></p>
