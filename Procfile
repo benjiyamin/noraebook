@@ -1,1 +1,1 @@
-web: python manage.py collectstatic --noinput; gunicorn noraebook.wsgi
+web: gunicorn noraebook.wsgi --log-file -
