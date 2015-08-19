@@ -13,3 +13,4 @@ urlpatterns = [
     # ex: /like/
     url(r'^like/$', views.like),
 ]
+
