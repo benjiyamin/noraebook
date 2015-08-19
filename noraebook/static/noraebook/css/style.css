@@ -23,6 +23,7 @@ input[type="text"], input[type="number"], select {
 
 .fav-result {
     font-size: 190%;
+    padding-left: 0;
 }
 
 .fav-selected {
