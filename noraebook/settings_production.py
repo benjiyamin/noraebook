@@ -6,7 +6,7 @@ from .settings import *
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
@@ -18,7 +18,7 @@ ALLOWED_HOSTS = ['*']
 # Static asset configuration
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (

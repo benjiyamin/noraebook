@@ -24,8 +24,9 @@ urlpatterns = [
     url(r'', include('submit.urls', namespace="submit")),
 ]
 
-
+'''
 if not settings.DEBUG:
     urlpatterns += patterns('',
         (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
     )
+'''
