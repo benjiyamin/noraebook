@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Company, Song
+from .models import Company, Song, UserProfile
 
 # Register your models here.
 
@@ -12,5 +12,11 @@ class CompanyAdmin(admin.ModelAdmin):
     inlines = [SongInline]
 
 
+class SongAdmin(admin.ModelAdmin):
+    list_display = ('code', 'company', 'title', 'approved')
+    list_filter = ['approved']
+
+
 admin.site.register(Company, CompanyAdmin)
-admin.site.register(Song)
+admin.site.register(Song, SongAdmin)
+admin.site.register(UserProfile)

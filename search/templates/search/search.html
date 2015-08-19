@@ -1,4 +1,7 @@
+
+
 {% if songs_list %}
+  {% csrf_token %}
   {% for song in songs_list %}
     <div class="result small-12 medium-12 large-12 columns">
       <div class="code-result small-4 medium-2 large-2 columns">
@@ -13,10 +16,21 @@
         </div>
       </div>
       <div class="fav-result small-1 medium-1 large-1 columns">
-        <i class="fi-heart"></i>
+
+        {% if request.user.is_authenticated %}
+          {% if song in favorites_list %}
+            <a class="likable liked" href="#"><i class="fi-heart" id="{{ song.id }}"></i></a>
+          {% else %}
+            <a class="likable not-liked" href="#"><i class="fi-heart" id="{{ song.id }}"></i></a>
+          {% endif %}
+        {% else %}
+          <a class="not-liked" href="/login/"><i class="fi-heart" id="{{ song.id }}"></i></a>
+        {% endif %}
       </div>
     </div>
   {% endfor %}
+  {% load staticfiles %}
+  <script type="text/javascript" src="{% static 'noraebook/js/norae-favorite.js' %}"></script>
 {% else %}
   <p></p>
 {% endif %}

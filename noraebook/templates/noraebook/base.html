@@ -24,7 +24,21 @@
       </ul>
       <section class="top-bar-section">
         <ul class="right">
-          <li id="about-tab"><a href="/submit/">Submit a Song</a></li>
+          {% if request.user.is_authenticated %}
+            <li id="login-tab"><a href="/logout/">Log Out</a></li>
+          {% else %}
+            <li id="login-tab"><a href="/login/">Log In</a></li>
+          {% endif %}
+        </ul>
+        <ul class="right">
+          <li id="submit-tab"><a href="/submit/">Submit</a></li>
+        </ul>
+        <ul class="right">
+          {% if request.user.is_authenticated %}
+            <li id="favorites-tab"><a href="/favorites/">Favorites</a></li>
+          {% else %}
+            <li id="login-tab"><a href="/login/">Favorites</a></li>
+          {% endif %}
         </ul>
       </section>
     </nav>

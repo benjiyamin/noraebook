@@ -28,9 +28,11 @@
     <div class="small-12 small-centered columns" id="results">
     </div>
   </div>
+
 {% endblock %}
 
 
 {% block endscripts %}
+  <script type="text/javascript" src="{% static 'noraebook/js/csrf-ajax.js' %}"></script>
   <script type="text/javascript" src="{% static 'noraebook/js/norae-search.js' %}"></script>
 {% endblock %}
