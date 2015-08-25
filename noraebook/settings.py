@@ -90,6 +90,18 @@ DATABASES = {
     }
 }
 
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'mysql.connector.django',
+        'NAME': 'benjiyamin$noraebook',
+        'USER': 'benjiyamin',
+        'PASSWORD': 'ch1ck3nb0wl',
+        'HOST': 'benjiyamin.mysql.pythonanywhere-services.com',
+    }
+}
+'''
+
 
 
 # Internationalization
