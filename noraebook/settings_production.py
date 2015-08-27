@@ -1,6 +1,6 @@
 from .settings import *
 
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'mysql.connector.django',
@@ -10,7 +10,7 @@ DATABASES = {
         'HOST': 'mysql.server',
     }
 }
-
+'''
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
