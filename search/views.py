@@ -1,10 +1,10 @@
 
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.template import loader, RequestContext
 from django.contrib.auth.models import User
 from .models import Company, Song, UserProfile
 from django.db.models import Q
-from django.template.loader import render_to_string
+from django.core import serializers
 
 
 # Create your views here.
@@ -49,7 +49,10 @@ def search(request):
                 'favorites_list': favorites_list[:],
                 'songs_list': songs_list[:50],
             })
+            '''
             return HttpResponse(template.render(context))
+            '''
+            return JsonResponse(serializers.serialize('json', songs_list[:50]), safe=False)
 
 
 def like(request):

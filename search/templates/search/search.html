@@ -16,7 +16,6 @@
         </div>
       </div>
       <div class="fav-result small-1 medium-1 large-1 columns">
-
         {% if request.user.is_authenticated %}
           {% if song in favorites_list %}
             <a class="likable liked" href="#"><i class="fi-heart" id="{{ song.id }}"></i></a>
