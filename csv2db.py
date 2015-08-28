@@ -29,7 +29,7 @@ class SongImporter:
         return song_already_in_db
 
     def import_from_file(self, file_path, company_name):
-        tuples = self.tuples_from_csv(file_path)
+        tuples = self.tuples_from_csv(file_path)[38661:]
         for t in tuples:
             code = int(t[0])
             if self.song_already_in_db(code, company_name) is False:

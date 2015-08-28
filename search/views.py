@@ -4,6 +4,8 @@ from django.template import loader, RequestContext
 from django.contrib.auth.models import User
 from .models import Company, Song, UserProfile
 from django.db.models import Q
+from django.template.loader import render_to_string
+
 
 # Create your views here.
 
@@ -41,6 +43,7 @@ def search(request):
                 favorites_list = user_profile.favorites.order_by('title')
             else:
                 favorites_list = []
+            
             template = loader.get_template('search/search.html')
             context = RequestContext(request, {
                 'favorites_list': favorites_list[:],

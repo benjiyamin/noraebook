@@ -83,6 +83,7 @@ WSGI_APPLICATION = 'noraebook.wsgi.application'
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -97,11 +98,10 @@ DATABASES = {
         'NAME': 'benjiyamin$noraebook',
         'USER': 'benjiyamin',
         'PASSWORD': 'ch1ck3nb0wl',
-        'HOST': 'benjiyamin.mysql.pythonanywhere-services.com',
+        'HOST': 'mysql.server',
     }
 }
 '''
-
 
 
 # Internationalization

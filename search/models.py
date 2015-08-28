@@ -13,8 +13,8 @@ class Company(models.Model):
 
 class Song(models.Model):
     code = models.IntegerField()
-    title = models.CharField(max_length=50)
-    artist = models.CharField(max_length=50)
+    title = models.CharField(max_length=100)
+    artist = models.CharField(max_length=100)
     company = models.ForeignKey(Company)
     approved = models.BooleanField(default=True)
 
