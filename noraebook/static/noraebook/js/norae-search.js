@@ -12,6 +12,7 @@ $(document).ready(function() {
 });
 
 function searchSuccess(response) {
+    /*
     var songs_list = JSON.parse(response);
     var html_string = "";
     for(var i=0; i<songs_list.length; i++) {
@@ -35,5 +36,6 @@ function searchSuccess(response) {
         console.log(song.fields.title);
     }
     $('#results').html(html_string);
-    /*$('#results').html(response)*/
+    */
+    $('#results').html(response)
 }

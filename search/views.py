@@ -50,9 +50,10 @@ def search(request):
                 'songs_list': songs_list[:50],
             })
             '''
+            return JsonResponse(serializers.serialize('json', songs_list[:50]), safe=False)
             return HttpResponse(template.render(context))
             '''
-            return JsonResponse(serializers.serialize('json', songs_list[:50]), safe=False)
+            return HttpResponse(template.render(context))
 
 
 def like(request):
