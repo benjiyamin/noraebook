@@ -32,33 +32,26 @@ def search(request):
     if request.is_ajax():
         search_text = request.GET.get('search_text')
         if search_text is not None:
-            print("ping1")
             if search_text != "":
                 songs_list = Song.objects.filter(Q(title__contains=search_text) |
                                                  Q(artist__contains=search_text),
                                                  approved=True).order_by('title')
             else:
                 songs_list = []
-            print("ping2")
             if request.user.is_authenticated() and request.user.is_superuser is False:
-                print("ping2a")
                 user_profile = UserProfile.objects.filter(user=request.user)[0]
                 favorites_list = user_profile.favorites.order_by('title')
             else:
-                print("ping2b")
                 favorites_list = []
-            print("ping3")
             template = loader.get_template('search/search.html')
             context = RequestContext(request, {
                 'favorites_list': favorites_list[:],
                 'songs_list': songs_list[:50],
             })
-            print("ping4")
             '''
             return JsonResponse(serializers.serialize('json', songs_list[:50]), safe=False)
             return HttpResponse(template.render(context))
             '''
-            print("ping5")
             print(songs_list[:5])
             return HttpResponse(template.render(context))
 
