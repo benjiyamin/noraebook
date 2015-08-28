@@ -52,7 +52,6 @@ def search(request):
             return JsonResponse(serializers.serialize('json', songs_list[:50]), safe=False)
             return HttpResponse(template.render(context))
             '''
-            print(songs_list[:5])
             return HttpResponse(template.render(context))
 
 
