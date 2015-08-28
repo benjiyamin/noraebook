@@ -6,7 +6,8 @@ $(document).ready(function() {
             data: {
                 'search_text': $('#search-data').val()
             },
-            success: searchSuccess
+            success: searchSuccess,
+            dataType: 'html'
         });
     });
 });
