@@ -33,8 +33,8 @@ def search(request):
         search_text = request.GET.get('search_text')
         if search_text is not None:
             if search_text != "":
-                songs_list = Song.objects.filter(Q(title__contains=search_text) |
-                                                 Q(artist__contains=search_text),
+                songs_list = Song.objects.filter(Q(title__icontains=search_text) |
+                                                 Q(artist__icontains=search_text),
                                                  approved=True).order_by('title')
             else:
                 songs_list = []

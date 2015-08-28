@@ -82,8 +82,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63957596">
-              <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.2991755">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
               <folding>
                 <element signature="e#1#51#0" expanded="true" />
               </folding>
@@ -836,12 +836,6 @@
       <option name="number" value="Default" />
       <updated>1439073085418</updated>
     </task>
-    <task id="LOCAL-00002" summary="Database has been updated and the song submission form has been completed">
-      <created>1439393135522</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1439393135522</updated>
-    </task>
     <task id="LOCAL-00003" summary="heroku setup">
       <created>1439487849032</created>
       <option name="number" value="00003" />
@@ -1130,7 +1124,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440761767205</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="git updates">
+      <created>1440761915335</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1440761915335</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1608,8 +1608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63957596">
-          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.2991755">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
           <folding>
             <element signature="e#1#51#0" expanded="true" />
           </folding>
