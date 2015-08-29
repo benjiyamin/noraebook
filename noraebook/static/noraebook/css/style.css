@@ -157,7 +157,8 @@ a {
 }
 
 .signup-panel {
-  padding: 15px;
+    padding: 15px;
+    margin: 0;
 }
 
 .signup-panel i {
