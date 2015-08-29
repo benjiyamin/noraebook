@@ -17,7 +17,13 @@
             {{ field }}
           </label>
         {% endfor %}
-        <button class="submit-button">Submit</button>
+        {% if show_error == True %}
+          <p class="submit-error">Invalid Submission. Please fill in all form fields</p>
+        {% else %}
+          <p></p>
+        {% endif %}
+
+        <button class="button small">Submit</button>
       </form>
     </div>
   </div>

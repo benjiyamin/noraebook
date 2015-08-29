@@ -24,12 +24,16 @@ def index(request):
             new_song.save()
             # redirect to a new URL:
             return HttpResponseRedirect('/submit/thanks/')
+        else:
+            show_error = True
     # If a GET (or any other method) we'll create a blank form
     else:
         form = SubmitForm()
+        show_error = False
     template = loader.get_template('submit/index.html')
     context = RequestContext(request, {
         'form': form,
+        'show_error': show_error
     })
     return HttpResponse(template.render(context))
 

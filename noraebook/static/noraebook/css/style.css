@@ -55,6 +55,9 @@ input[type="text"], input[type="number"], select {
     color: #000000;
 }
 
+.submit-error {
+    color: #e74c3c;
+}
 
 .search {
     position: relative;
@@ -84,16 +87,6 @@ input[type="text"], input[type="number"], select {
 .search .search-field {
     /*font-size: 16px;*/
     height: 50px;
-}
-
-.search .arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 6px solid #2ba6cb;
-    margin-left: 85px;
-    margin-top: -10px;
 }
 
 #drop3.content.open {
@@ -131,14 +124,6 @@ a {
     background: #27ae60;
 }
 
-.top-bar-section ul li>a {
-    font-size: 1.0rem;
-}
-
-.top-bar .name h1 {
-    font-size: 4.04rem;
-}
-
 .submit-label {
     color: #6f6f6f;
 }
@@ -147,19 +132,9 @@ a {
     background: #27ae60;
 }
 
-.submit-button:hover {
-    background: #007095;
-}
-
 .button {
     background: #27ae60;
 }
-
-.button:hover {
-    background: #007095;
-}
-
-
 
 @media only screen and (min-width: 40.0625em) {
     .top-bar {
@@ -169,18 +144,7 @@ a {
     .top-bar-section li:not(.has-form) a:not(.button) {
         background: #27ae60;
     }
-
-    .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background: #007095;
-    }
-
-    .top-bar .name h1 {
-        font-size: 4.04rem;
-    }
 }
-
-
-
 
 
 
@@ -213,7 +177,7 @@ a {
 }
 
 .signup-panel .button {
-  margin-left: 35%;
+  /*margin-left: 35%;*/
 }
 
 section.active {
@@ -229,70 +193,6 @@ p.title {
 }
 
 
-
-
-
-
-/*
-@media only screen and (max-width: 767px) {
-  .pinned {
-    width: 15%;
-  }
-}
-*/
-
-
-/* Styles for signup panels */
-/*
-.auth-plain {
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-top: 0px;
-}
-
-.left-solid {
-margin-top: 0px;
-margin-bottom: 0px;
-}
-
-.signup-panel {
-  border-radius: 5px;
-  padding: 15px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background: #fff;
-}
-
-.signup-panel a{
-  color: #fff;
-}
-
-.signup-panel i {
-  font-size: 30px;
-  line-height: 50px;
-  color: #999;
-}
-.signup-panel form input, .signup-panel form span {
-  height: 50px;
-}
-.signup-panel .welcome {
-  font-size: 26px;
-  text-align: center;
-  margin-left: 0;
-}
-.signup-panel p {
-  font-size: 13px;
-  font-weight: 200;
-  text-align: center;
-}
-.signup-panel .button {
-  margin-left: 35%;
-}
-
-.newusers {
-  background: #fff;
-}
-*/
 
 
 

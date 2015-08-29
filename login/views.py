@@ -38,7 +38,11 @@ def login_view(request):
                     return HttpResponseRedirect('/diabled/')
             else:
                 # Return an 'invalid login' error message.
-                return HttpResponseRedirect('/invalid/')
+                return HttpResponseRedirect('/login/invalid-login/')
+        else:
+            # Return an 'invalid login' error message.
+            print(login_form.errors)
+            #return HttpResponseRedirect('/login/invalid-login/')
 
     # If a GET (or any other method) we'll create a blank form
     else:
@@ -70,6 +74,9 @@ def signup_view(request):
                 return HttpResponseRedirect('/favorites/')
             else:
                 return HttpResponseRedirect('/login/')
+        else:
+            # Return an 'invalid login' error message.
+            return HttpResponseRedirect('/invalid/')
     # If a GET (or any other method) we'll create a blank form
     else:
         signup_form = SignupForm()

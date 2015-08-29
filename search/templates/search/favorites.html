@@ -2,7 +2,7 @@
 
 {% block content %}
   <div class="row">
-    {% if songs_list %}
+    {% if songs_list|length > 0 %}
       {% for song in songs_list %}
         <div class="result small-12 medium-12 large-12 columns">
           <div class="code-result small-4 medium-2 large-2 columns">
@@ -19,7 +19,9 @@
         </div>
       {% endfor %}
     {% else %}
-      <p></p>
+      <div class="small-12 medium-12 large-12 columns">
+        <h4>You have no favorites stored yet. Start favoriting songs to add to this list</h4>
+      </div>
     {% endif %}
   </div>
 {% endblock %}
