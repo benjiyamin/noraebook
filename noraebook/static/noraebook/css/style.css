@@ -136,13 +136,39 @@ a {
     background: #27ae60;
 }
 
-@media only screen and (min-width: 40.0625em) {
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #27ae60;
+}
+
+
+@media only screen and (max-width: 40.0625em) {
     .top-bar {
         background: #27ae60;
     }
 
     .top-bar-section li:not(.has-form) a:not(.button) {
         background: #27ae60;
+    }
+
+    .code-result {
+        font-size: 140%;
+        padding-left: 0;
+    }
+
+    .title-result {
+        font-size: 100%;
+        padding: 0;
+    }
+
+    .artist-result {
+        font-size: 70%;
+        padding: 0;
+    }
+
+    .fav-result {
+        font-size: 160%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
