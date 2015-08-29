@@ -38,7 +38,7 @@ def search(request):
                                                  approved=True).order_by('title')
             else:
                 songs_list = []
-            if request.user.is_authenticated() and request.user.is_superuser is False:
+            if request.user.is_authenticated() and not request.user.is_superuser:
                 user_profile = UserProfile.objects.filter(user=request.user)[0]
                 favorites_list = user_profile.favorites.order_by('title')
             else:
