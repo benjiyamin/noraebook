@@ -5,9 +5,7 @@ from . import views
 
 urlpatterns = [
     # ex: /login/
-    url(r'^login/$', views.index),
-    # ex: /login/login/
-    url(r'^login/login/$', views.login_view),
+    url(r'^login/$', views.login_view),
     # ex: /signup/
     url(r'^signup/$', views.signup_view),
     # ex: /logout/

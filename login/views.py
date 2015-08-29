@@ -8,14 +8,6 @@ from django import forms
 
 # Create your views here.
 
-def index(request, login_form=LoginForm(), signup_form=SignupForm()):
-    template = loader.get_template('login/index.html')
-    context = RequestContext(request, {
-        'login_form': login_form,
-        'signup_form': signup_form,
-    })
-    return HttpResponse(template.render(context))
-
 
 def login_view(request):
     # If this is a POST request we need to process the form data
@@ -29,26 +21,29 @@ def login_view(request):
             password = request.POST.get('password')
             user = authenticate(username=username, password=password)
             if user is not None:
-                if user.is_active:
-                    login(request, user)
-                    # redirect to a success page
-                    return HttpResponseRedirect('/favorites/')
-                else:
-                    # return to a 'disabled account error message
-                    return HttpResponseRedirect('/diabled/')
+                login(request, user)
+                # redirect to a success page
+                return HttpResponseRedirect('/favorites/')
             else:
                 # Return an 'invalid login' error message.
-                return HttpResponseRedirect('/login/invalid-login/')
+                show_login_error = True
         else:
             # Return an 'invalid login' error message.
-            print(login_form.errors)
-            #return HttpResponseRedirect('/login/invalid-login/')
-
+            show_login_error = True
     # If a GET (or any other method) we'll create a blank form
     else:
         login_form = LoginForm()
+        show_login_error = False
     signup_form = SignupForm()
-    index(request, login_form, signup_form)
+    template = loader.get_template('login/index.html')
+    context = RequestContext(request, {
+        'login_form': login_form,
+        'signup_form': signup_form,
+        'show_login_error': show_login_error,
+        'show_signup_error': False,
+        'signup_tab': False
+    })
+    return HttpResponse(template.render(context))
 
 
 def signup_view(request):
@@ -73,15 +68,24 @@ def signup_view(request):
                 # redirect to a new URL:
                 return HttpResponseRedirect('/favorites/')
             else:
-                return HttpResponseRedirect('/login/')
+                show_signup_error = True
         else:
             # Return an 'invalid login' error message.
-            return HttpResponseRedirect('/invalid/')
+            show_signup_error = True
     # If a GET (or any other method) we'll create a blank form
     else:
         signup_form = SignupForm()
+        show_signup_error = False
     login_form = LoginForm()
-    index(request, login_form, signup_form)
+    template = loader.get_template('login/index.html')
+    context = RequestContext(request, {
+        'login_form': login_form,
+        'signup_form': signup_form,
+        'show_login_error': False,
+        'show_signup_error': show_signup_error,
+        'signup_tab': True
+    })
+    return HttpResponse(template.render(context))
 
 
 def logout_view(request):
