@@ -158,23 +158,26 @@ a {
 
 .signup-panel {
     padding: 15px;
+}
+
+.row .signup-panel {
     margin: 0;
 }
 
 .signup-panel i {
-  font-size: 30px;
-  line-height: 50px;
-  color: #999;
+    font-size: 30px;
+    line-height: 50px;
+    color: #999;
 }
 
 .signup-panel form input, .signup-panel form span {
-  height: 50px;
+    height: 50px;
 }
 
 .signup-panel .welcome {
-  font-size: 26px;
-  text-align: center;
-  margin-left: 0;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 0;
 }
 
 .signup-panel .button {
