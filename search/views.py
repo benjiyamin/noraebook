@@ -73,8 +73,10 @@ def like(request):
                     # Unlike
                     user_profile.favorites.remove(song_to_like)
                     song_to_like.likes -= 1
+                    song_to_like.save()
                 else:
                     # Like
                     user_profile.favorites.add(song_to_like)
                     song_to_like.likes += 1
+                    song_to_like.save()
                 return HttpResponse('success')
