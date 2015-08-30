@@ -23,8 +23,8 @@ def favorites(request):
     user_profile = UserProfile.objects.filter(user=request.user)[0]
     favorites_list = user_profile.favorites.order_by('title')
     context = RequestContext(request, {
-                'songs_list': favorites_list[:],
-            })
+            'songs_list': favorites_list[:],
+        })
     return HttpResponse(template.render(context))
 
 
