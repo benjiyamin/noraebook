@@ -13,8 +13,8 @@ class CompanyAdmin(admin.ModelAdmin):
 
 
 class SongAdmin(admin.ModelAdmin):
-    list_display = ('code', 'company', 'title', 'approved')
-    list_filter = ['approved']
+    list_display = ('code', 'company', 'title', 'likes', 'approved')
+    list_filter = ['likes', 'approved']
 
 
 admin.site.register(Company, CompanyAdmin)

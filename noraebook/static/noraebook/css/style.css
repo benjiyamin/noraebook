@@ -3,6 +3,7 @@
 /* Styles for search dropdown */
 input[type="text"], input[type="number"], select {
     font-size: 16px;
+    height: 50px;
 }
 
 .result {
@@ -12,6 +13,12 @@ input[type="text"], input[type="number"], select {
 .code-result {
     font-size: 190%;
 }
+
+.company-sup {
+    font-size: 50%;
+    color: #e67e22;
+}
+
 
 .title-result {
     font-size: 120%;
@@ -63,6 +70,7 @@ input[type="text"], input[type="number"], select {
     position: relative;
     padding-top: 20px;
     margin-bottom: 0;
+    background-color: #FFFFFF;
 }
 
 .search input {
@@ -87,6 +95,7 @@ input[type="text"], input[type="number"], select {
 .search .search-field {
     /*font-size: 16px;*/
     height: 50px;
+    margin-bottom: 10px;
 }
 
 #drop3.content.open {
@@ -136,10 +145,34 @@ a {
     background: #27ae60;
 }
 
+.button:hover {
+    background: #000000;
+}
+
+
 .top-bar-section li:not(.has-form) a:not(.button) {
     background: #27ae60;
 }
 
+.sub-nav dd.active a {
+    background: #27ae60;
+}
+
+.sub-nav dd.active a:hover {
+    background: #000000;
+}
+
+.sub-nav {
+    margin-bottom: 10px;
+}
+
+.sub-nav dt {
+    margin-left: 0.5rem;
+}
+
+.sub-nav dd {
+    margin-left: 0.5rem;
+}
 
 @media only screen and (max-width: 40.0625em) {
     .top-bar {
@@ -156,12 +189,12 @@ a {
     }
 
     .title-result {
-        font-size: 100%;
+        font-size: 105%;
         padding: 0;
     }
 
     .artist-result {
-        font-size: 70%;
+        font-size: 65%;
         padding: 0;
     }
 
@@ -219,13 +252,16 @@ p.title {
 	border-bottom: 1px solid #cccccc !important;
 }
 
-.content{
+.content {
 	height: 450px;
 }
 
 
-
-
+/*
+#search-data {
+    margin-bottom: 0.5rem;
+}
+*/
 
 
 

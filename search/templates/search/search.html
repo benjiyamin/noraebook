@@ -6,7 +6,7 @@
   {% for song in songs_list %}
     <div class="result small-12 medium-12 large-12 columns">
       <div class="code-result small-3 medium-2 large-2 columns">
-        {{ song.code }}
+        {{ song.code }}<sup class="company-sup">{{ song.company.abbr }}</sup>
       </div>
       <div class="song-result small-8 medium-9 large-9 columns">
         <div class="title-result small-12 large-12 columns">

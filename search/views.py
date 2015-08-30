@@ -1,5 +1,5 @@
 
-from django.http import HttpResponse, JsonResponse
+from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from django.template import loader, RequestContext
 from django.contrib.auth.models import User
 from .models import Company, Song, UserProfile
@@ -12,7 +12,7 @@ import operator
 
 
 def index(request):
-    companies_list = Company.objects.order_by('name')[:]
+    #companies_list = Company.objects.order_by('name')[:]
     template = loader.get_template('search/index.html')
     context = RequestContext(request, {
     })
@@ -20,23 +20,28 @@ def index(request):
 
 
 def favorites(request):
-    template = loader.get_template('search/favorites.html')
-    user_profile = UserProfile.objects.filter(user=request.user)[0]
-    favorites_list = user_profile.favorites.order_by('title')
-    context = RequestContext(request, {
-        'songs_list': favorites_list[:],
-    })
-    return HttpResponse(template.render(context))
+    if request.user.is_authenticated():
+        template = loader.get_template('search/favorites.html')
+        user_profile = UserProfile.objects.filter(user=request.user)[0]
+        favorites_list = user_profile.favorites.order_by('title')
+        context = RequestContext(request, {
+            'songs_list': favorites_list[:],
+        })
+        return HttpResponse(template.render(context))
+    else:
+        return HttpResponseRedirect('/login/')
 
 
 def search(request):
     if request.is_ajax():
         search_text = request.GET.get('search_text')
         search_list = search_text.split()
+        sort_text = request.GET.get('sort_text').lower()
+        print(sort_text)
         if search_text != "":
             songs_list = Song.objects.filter(Q(title__icontains=search_list[0]) |
                                              Q(artist__icontains=search_list[0]),
-                                             approved=True).order_by('title')
+                                             approved=True).order_by(sort_text, 'likes')
             if len(search_list) > 1:
                 for i in range(1, len(search_list)):
                     songs_list = songs_list.filter(Q(title__icontains=search_list[i]) |
@@ -45,7 +50,8 @@ def search(request):
             songs_list = []
         if request.user.is_authenticated() and not request.user.is_superuser:
             user_profile = UserProfile.objects.filter(user=request.user)[0]
-            favorites_list = user_profile.favorites.order_by('title')
+            #favorites_list = user_profile.favorites.order_by('title')
+            favorites_list = user_profile.favorites.all()
         else:
             favorites_list = []
         template = loader.get_template('search/search.html')
@@ -53,7 +59,6 @@ def search(request):
             'favorites_list': favorites_list[:],
             'songs_list': songs_list[:50],
         })
-        #return JsonResponse(serializers.serialize('json', songs_list[:50]), safe=False)
         return HttpResponse(template.render(context))
 
 
@@ -65,7 +70,11 @@ def like(request):
                 user_profile = UserProfile.objects.filter(user=request.user)[0]
                 song_to_like = Song.objects.get(pk=song_id)
                 if song_to_like in user_profile.favorites.all():
+                    # Unlike
                     user_profile.favorites.remove(song_to_like)
+                    song_to_like.likes -= 1
                 else:
+                    # Like
                     user_profile.favorites.add(song_to_like)
+                    song_to_like.likes += 1
                 return HttpResponse('success')
