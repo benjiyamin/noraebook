@@ -8,9 +8,9 @@
         {% csrf_token %}
         {% for field in form %}
           <div class="row collapse">
-            <label class="submit-label" for="{{ field.auto_id }}">{{ field.label }}
+            <div class="small-10 columns">
               {{ field }}
-            </label>
+            </div>
           </div>
         {% endfor %}
         {% if show_error == True %}

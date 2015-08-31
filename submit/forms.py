@@ -4,18 +4,18 @@ from django import forms
 
 
 class SubmitForm(forms.Form):
-    code = forms.IntegerField(label="Song Code:",
-                              widget=forms.NumberInput(attrs={'placeholder': 'enter number',
+    code = forms.IntegerField(required=True,
+                              widget=forms.NumberInput(attrs={'placeholder': 'Song Code',
                                                               'step': '1'}))
-    title = forms.CharField(label="Title:", max_length=50,
-                            widget=forms.TextInput(attrs={'placeholder': 'enter text',
+    title = forms.CharField(max_length=50, required=True,
+                            widget=forms.TextInput(attrs={'placeholder': 'Title',
                                                           'autocomplete': 'off'}))
-    artist = forms.CharField(label="Artist:", max_length=50,
-                             widget=forms.TextInput(attrs={'placeholder': 'enter text',
+    artist = forms.CharField(max_length=50, required=True,
+                             widget=forms.TextInput(attrs={'placeholder': 'Artist',
                                                            'autocomplete': 'off'}))
     company = forms.ChoiceField(label="Company:",
                                 choices=(
-                                    (None, 'Select..'),
+                                    (None, 'Select Company..'),
                                     ('TJ Media', 'TJ Media'),
                                     ('Kumyoung', 'Kumyoung'),
                                     ('Platinum', 'Platinum'),
