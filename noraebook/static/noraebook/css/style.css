@@ -159,9 +159,11 @@ a {
     background: #27ae60;
 }
 
+
 .sub-nav dd.active a:hover {
-    background: #000000;
+    background: #27ae60;
 }
+
 
 .sub-nav {
     margin-bottom: 10px;
