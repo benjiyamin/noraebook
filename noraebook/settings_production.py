@@ -19,3 +19,4 @@ TEMPLATE_DEBUG = DEBUG
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
 
+IN_PRODUCTION = True

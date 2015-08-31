@@ -50,7 +50,9 @@
   <script src="{% static 'noraebook/js/vendor/modernizr.js' %}"></script>
   <script src={% static 'noraebook/js/vendor/fastclick.js' %}></script>
   <script src={% static 'noraebook/js/foundation.min.js' %}></script>
-  <script src={% static 'noraebook/js/google-tracking.min.js' %}></script>
+  {% if not debug %}
+    <script src={% static 'noraebook/js/google-tracking.min.js' %}></script>
+  {% endif %}
   <script>
     $(document).foundation();
   </script>
