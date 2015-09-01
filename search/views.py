@@ -12,9 +12,16 @@ import operator
 
 
 def index(request):
-    #companies_list = Company.objects.order_by('name')[:]
+    songs_list = Song.objects.order_by('-likes')
+    if request.user.is_authenticated() and not request.user.is_superuser:
+        user_profile = UserProfile.objects.filter(user=request.user)[0]
+        favorites_list = user_profile.favorites.all()
+    else:
+        favorites_list = []
     template = loader.get_template('search/index.html')
     context = RequestContext(request, {
+        'favorites_list': favorites_list[:],
+        'songs_list': songs_list[:50],
     })
     return HttpResponse(template.render(context))
 
@@ -41,16 +48,16 @@ def search(request):
         if search_text != "":
             songs_list = Song.objects.filter(Q(title__icontains=search_list[0]) |
                                              Q(artist__icontains=search_list[0]),
-                                             approved=True).order_by(sort_text, 'likes')
+                                             approved=True).order_by(sort_text)
             if len(search_list) > 1:
                 for i in range(1, len(search_list)):
                     songs_list = songs_list.filter(Q(title__icontains=search_list[i]) |
                                                    Q(artist__icontains=search_list[i]))
         else:
-            songs_list = []
+            songs_list = Song.objects.order_by('-likes')
+
         if request.user.is_authenticated() and not request.user.is_superuser:
             user_profile = UserProfile.objects.filter(user=request.user)[0]
-            #favorites_list = user_profile.favorites.order_by('title')
             favorites_list = user_profile.favorites.all()
         else:
             favorites_list = []
