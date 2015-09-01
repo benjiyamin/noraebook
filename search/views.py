@@ -21,7 +21,7 @@ def index(request):
     template = loader.get_template('search/index.html')
     context = RequestContext(request, {
         'favorites_list': favorites_list[:],
-        'songs_list': songs_list[:20],
+        'songs_list': songs_list[:30],
     })
     return HttpResponse(template.render(context))
 
@@ -65,7 +65,7 @@ def search(request):
         template = loader.get_template('search/search.html')
         context = RequestContext(request, {
             'favorites_list': favorites_list[:],
-            'songs_list': songs_list[:20],
+            'songs_list': songs_list[:30],
         })
         return HttpResponse(template.render(context))
 
