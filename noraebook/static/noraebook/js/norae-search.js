@@ -7,6 +7,7 @@ $(document).ready(function() {
                 'search_text': $('#search-data').val(),
                 'sort_text': $('.selected').text()
             },
+            async: true,
             success: searchSuccess,
             dataType: 'html'
         });
