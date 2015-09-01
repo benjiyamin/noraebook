@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="058daa21-fe27-415e-8f38-fc2fb55d85fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/views.py" afterPath="$PROJECT_DIR$/search/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/js/jquery.jscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit/templates/submit/index.html" afterPath="$PROJECT_DIR$/submit/templates/submit/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="noraebox.iws" />
@@ -73,14 +74,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70705247">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="e#1#73#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/submit/templates/submit/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32258064">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,7 +197,6 @@
         <option value="$PROJECT_DIR$/search/templates/search/search.html" />
         <option value="$PROJECT_DIR$/search/templates/search/favorites.html" />
         <option value="$PROJECT_DIR$/noraebook/static/noraebook/css/style.css" />
-        <option value="$PROJECT_DIR$/submit/templates/submit/index.html" />
         <option value="$PROJECT_DIR$/submit/forms.py" />
         <option value="$PROJECT_DIR$/noraebook/settings_production.py" />
         <option value="$PROJECT_DIR$/noraebook/templates/noraebook/base.html" />
@@ -194,6 +204,7 @@
         <option value="$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js" />
         <option value="$PROJECT_DIR$/noraebook/settings.py" />
         <option value="$PROJECT_DIR$/search/views.py" />
+        <option value="$PROJECT_DIR$/submit/templates/submit/index.html" />
       </list>
     </option>
   </component>
@@ -471,11 +482,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\noraebook\static\noraebook\js" />
       <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\noraebook\static\noraebook\ad" />
       <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook" />
       <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\archive" />
       <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\noraebook" />
-      <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\login" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\millerb\Google Drive\web\noraebook\scripts\csv" />
@@ -776,12 +787,6 @@
       <option name="number" value="Default" />
       <updated>1439073085418</updated>
     </task>
-    <task id="LOCAL-00030" summary="Added login and favoriting features">
-      <created>1439961100996</created>
-      <option name="number" value="00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1439961100996</updated>
-    </task>
     <task id="LOCAL-00031" summary="Added login and favoriting features">
       <created>1439961192319</created>
       <option name="number" value="00031" />
@@ -1070,7 +1075,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441074841754</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="search engine optimization">
+      <created>1441075026998</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1441075026998</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1346,6 +1357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,6 +1398,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1428,6 +1441,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48013622">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="e#1#59#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1464,14 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submit/templates/submit/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23831776">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1555,11 +1563,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70705247">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="e#1#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit/templates/submit/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32258064">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
