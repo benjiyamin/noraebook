@@ -44,7 +44,8 @@ def search(request):
         search_text = request.GET.get('search_text')
         search_list = search_text.split()
         sort_text = request.GET.get('sort_text').lower()
-        print(sort_text)
+        if sort_text == "rank":
+            sort_text = "-likes"
         if search_text != "":
             songs_list = Song.objects.filter(Q(title__icontains=search_list[0]) |
                                              Q(artist__icontains=search_list[0]),
@@ -54,7 +55,7 @@ def search(request):
                     songs_list = songs_list.filter(Q(title__icontains=search_list[i]) |
                                                    Q(artist__icontains=search_list[i]))
         else:
-            songs_list = Song.objects.order_by('-likes')
+            songs_list = Song.objects.order_by(sort_text)
 
         if request.user.is_authenticated() and not request.user.is_superuser:
             user_profile = UserProfile.objects.filter(user=request.user)[0]
