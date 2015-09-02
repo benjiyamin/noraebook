@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    /*$.getScript('/static/noraebook/js/norae-favorite.js');*/
+    $.getScript('/static/noraebook/js/norae-favorite.js');
     var inProgress = false;
 
     $('#search-data').keyup(function() {
