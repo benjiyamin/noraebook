@@ -35,12 +35,12 @@ $(document).ready(function() {
 
     $(window).scroll(function() {
         if(($(window).scrollTop() + $(window).height() >= $(document).height()) && (!inProgress)) {
-            if (!($("#dvloader").length)) {
-                var loadHtml = '<div class="small-12 columns" id="dvloader"><img src="' + loadGif + '" id="gif-loader" height="36" width="36" /></div>';
+            if (!($("#dvloader").length) && ($("#scroll-div").length)) {
+                var loadHtml = '<div class="small-12 columns" id="dvloader"><img src="/static/noraebook/gif/loading.gif" id="gif-loader" height="36" width="36" /></div>';
                 $('#results').append(loadHtml);
                 inProgress = true;
+                searchAjax($('.result').length, scrollSuccess, true)
             }
-            searchAjax($('.result').length, scrollSuccess, true)
         }
     });
 
