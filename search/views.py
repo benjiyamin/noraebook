@@ -3,8 +3,6 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader, RequestContext
 from .models import Song, UserProfile
 from django.db.models import Q
-import datetime
-
 
 
 # Create your views here.
@@ -46,7 +44,7 @@ def search(request):
             scrollable = True
         else:
             scrollable = False
-        songs_list = songs_list[results_length:20]
+        songs_list = songs_list[results_length:results_length + max_results]
         template = loader.get_template('search/search.html')
     else:
         songs_list = Song.objects.order_by('-likes')
