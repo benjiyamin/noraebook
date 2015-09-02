@@ -44,21 +44,6 @@ $(document).ready(function() {
         }
     });
 
-    function searchAjax(resultsLength, successFunction, asyncBool) {
-        $.ajax({
-            type: 'GET',
-            url: "/search/",
-            data: {
-                'search_text': $('#search-data').val(),
-                'sort_text': $('.selected').text(),
-                'results_length': resultsLength
-            },
-            async: asyncBool,
-            success: successFunction,
-            dataType: 'html'
-        });
-    }
-
     function searchSuccess(response) {
         $('#results').html(response);
         $.getScript('/static/noraebook/js/norae-favorite.js');
@@ -76,7 +61,7 @@ $(document).ready(function() {
     }
 
 });
-/*
+
 function searchAjax(resultsLength, successFunction, asyncBool) {
     $.ajax({
         type: 'GET',
@@ -91,20 +76,3 @@ function searchAjax(resultsLength, successFunction, asyncBool) {
         dataType: 'html'
     });
 }
-
-function searchSuccess(response) {
-    $('#results').html(response);
-    $.getScript('/static/noraebook/js/norae-favorite.js');
-    inProgress = false
-}
-
-function scrollSuccess(response) {
-    $("#dvloader").remove();
-    var scrollDiv = document.getElementById('scroll-div');
-    if (scrollDiv) {
-        scrollDiv.removeAttribute('id');
-    }
-    $('#results').append(response);
-    inProgress = false
-}
-*/
