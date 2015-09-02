@@ -2,21 +2,21 @@
 {% load staticfiles %}
 
 {% if songs_list %}
-  {% csrf_token %}
+  {# {% csrf_token %} #}
   {% for song in songs_list %}
-    <div class="result small-12 medium-12 large-12 columns">
-      <div class="code-result small-3 medium-2 large-2 columns">
+    <div class="result small-12 columns"{% if forloop.last and scrollable %} id="scroll-div"{% endif %}>
+      <div class="code-result small-3 medium-2 columns">
         {{ song.code }}<sup class="company-sup">{{ song.company.abbr }}</sup>
       </div>
-      <div class="song-result small-8 medium-9 large-9 columns">
-        <div class="title-result small-12 large-12 columns">
+      <div class="song-result small-8 medium-9 columns">
+        <div class="title-result small-12 columns">
           {{ song.title|title }}
         </div>
-        <div class="artist-result small-12 large-12 columns">
+        <div class="artist-result small-12 columns">
           &nbsp;{{ song.artist }}
         </div>
       </div>
-      <div class="fav-result small-1 medium-1 large-1 columns">
+      <div class="fav-result small-1 columns">
         {% if request.user.is_authenticated %}
           {% if song in favorites_list %}
             <a class="likable liked" href="#"><i class="fi-heart" id="{{ song.id }}"></i></a>
@@ -29,7 +29,6 @@
       </div>
     </div>
   {% endfor %}
-  <script type="text/javascript" src="{% static 'noraebook/js/norae-favorite.js' %}"></script>
 {% else %}
-  <p></p>
+  <div class="small-12 columns"></div>
 {% endif %}

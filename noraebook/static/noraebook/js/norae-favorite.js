@@ -1,3 +1,4 @@
+
 $(".likable").click(function(event) {
     event.preventDefault();
     if ($(this).hasClass("not-liked")) {

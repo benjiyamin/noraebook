@@ -265,6 +265,16 @@ p.title {
     margin-bottom: 0.5rem;
 }
 */
+#dvloader {
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+}
+
+#gif-loader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 

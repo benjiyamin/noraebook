@@ -5,7 +5,7 @@ from . import views
 
 urlpatterns = [
     # ex: /
-    url(r'^$', views.index),
+    url(r'^$', views.search),
     # ex: /favorites/
     url(r'^favorites/$', views.favorites),
     # ex: /search/

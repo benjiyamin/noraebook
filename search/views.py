@@ -1,29 +1,11 @@
 
-from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader, RequestContext
-from django.contrib.auth.models import User
-from .models import Company, Song, UserProfile
+from .models import Song, UserProfile
 from django.db.models import Q
-from django.core import serializers
-import operator
 
 
 # Create your views here.
-
-
-def index(request):
-    songs_list = Song.objects.order_by('-likes')
-    if request.user.is_authenticated() and not request.user.is_superuser:
-        user_profile = UserProfile.objects.filter(user=request.user)[0]
-        favorites_list = user_profile.favorites.all()
-    else:
-        favorites_list = []
-    template = loader.get_template('search/index.html')
-    context = RequestContext(request, {
-        'favorites_list': favorites_list[:],
-        'songs_list': songs_list[:30],
-    })
-    return HttpResponse(template.render(context))
 
 
 def favorites(request):
@@ -40,10 +22,12 @@ def favorites(request):
 
 
 def search(request):
+    max_results = 20
     if request.is_ajax():
         search_text = request.GET.get('search_text')
         search_list = search_text.split()
         sort_text = request.GET.get('sort_text').lower()
+        results_length = int(request.GET.get('results_length'))
         if sort_text == "rank":
             sort_text = "-likes"
         if search_text != "":
@@ -56,18 +40,33 @@ def search(request):
                                                    Q(artist__icontains=search_list[i]))
         else:
             songs_list = Song.objects.order_by(sort_text)
-
-        if request.user.is_authenticated() and not request.user.is_superuser:
-            user_profile = UserProfile.objects.filter(user=request.user)[0]
-            favorites_list = user_profile.favorites.all()
+        if len(songs_list) > max_results:
+            scrollable = True
         else:
-            favorites_list = []
+            scrollable = False
+        songs_list = songs_list[results_length:results_length + max_results]
         template = loader.get_template('search/search.html')
-        context = RequestContext(request, {
-            'favorites_list': favorites_list[:],
-            'songs_list': songs_list[:30],
-        })
-        return HttpResponse(template.render(context))
+    else:
+        songs_list = Song.objects.order_by('-likes')
+        if len(songs_list) > max_results:
+            scrollable = True
+        else:
+            scrollable = False
+        songs_list = songs_list[:max_results]
+        template = loader.get_template('search/index.html')
+
+    if request.user.is_authenticated() and not request.user.is_superuser:
+        user_profile = UserProfile.objects.filter(user=request.user)[0]
+        favorites_list = user_profile.favorites.all()
+    else:
+        favorites_list = []
+
+    context = RequestContext(request, {
+        'favorites_list': favorites_list[:],
+        'songs_list': songs_list,
+        'scrollable': scrollable
+    })
+    return HttpResponse(template.render(context))
 
 
 def like(request):
