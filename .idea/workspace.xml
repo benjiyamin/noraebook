@@ -108,8 +108,8 @@
       <file leaf-file-name="norae-search.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8754579">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8925519">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -828,12 +828,6 @@
       <option name="number" value="Default" />
       <updated>1439073085418</updated>
     </task>
-    <task id="LOCAL-00035" summary="Added login and favoriting features">
-      <created>1439968178845</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1439968178845</updated>
-    </task>
     <task id="LOCAL-00036" summary="Added login and favoriting features">
       <created>1439968449105</created>
       <option name="number" value="00036" />
@@ -1122,7 +1116,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441230789340</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="search engine optimization">
+      <created>1441230972632</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1441230972632</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1605,8 +1605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8754579">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8925519">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding />
         </state>
       </provider>
