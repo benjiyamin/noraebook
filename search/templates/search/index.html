@@ -11,11 +11,20 @@
     <div class="small-12 columns">
       <div class="row search collapse">
         <i class="fi-magnifying-glass"></i>
-        <input type="text" class="search-field" id="search-data" placeholder="Find Your Favorite Song..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+        {% if not favorites %}
+          <input type="text" class="search-field" id="search-data" placeholder="Find a song..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+        {% else %}
+          <input type="text" class="search-field" id="search-data" placeholder="Search through your favorites..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+        {% endif %}
         <dl class="sub-nav">
           <dt>Sort By:</dt>
-          <dd class="active"><a class="sub-nav-clickable selected" href="#">Rank</a></dd>
-          <dd><a class="sub-nav-clickable not-selected" href="#">Title</a></dd>
+          {% if not favorites %}
+            <dd class="active"><a class="sub-nav-clickable selected" href="#">Rank</a></dd>
+            <dd><a class="sub-nav-clickable not-selected" href="#">Title</a></dd>
+          {% else %}
+            <dd><a class="sub-nav-clickable not-selected" href="#">Rank</a></dd>
+            <dd class="active"><a class="sub-nav-clickable selected" href="#">Title</a></dd>
+          {% endif %}
           <dd><a class="sub-nav-clickable not-selected" href="#">Artist</a></dd>
         </dl>
       </div>
@@ -65,5 +74,14 @@
 
 {% block endscripts %}
   <script type="text/javascript" src="{% static 'noraebook/js/csrf-ajax.js' %}"></script>
+    {% if favorites %}
+      <script>
+        var favoritesOnly = true
+      </script>
+    {% else %}
+      <script>
+        var favoritesOnly = false
+      </script>
+    {% endif %}
   <script type="text/javascript" src="{% static 'noraebook/js/norae-search.js' %}"></script>
 {% endblock %}

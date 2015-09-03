@@ -7,7 +7,7 @@ $(document).ready(function() {
             inProgress = true;
             $("html, body").animate({ scrollTop: 1 });
         }
-        searchAjax(0, searchSuccess, true)
+        searchAjax(0, searchSuccess, true, favoritesOnly)
     });
 
     $(".sub-nav-clickable").click(function(event) {
@@ -30,7 +30,7 @@ $(document).ready(function() {
             $(this).removeClass("not-selected");
             $(this).parent().addClass("active");
         }
-        searchAjax(0, searchSuccess, false)
+        searchAjax(0, searchSuccess, false, favoritesOnly)
     });
 
     $(window).scroll(function() {
@@ -39,7 +39,7 @@ $(document).ready(function() {
                 var loadHtml = '<div class="small-12 columns" id="dvloader"><img src="/static/noraebook/gif/loading.gif" id="gif-loader" height="36" width="36" /></div>';
                 $('#results').append(loadHtml);
                 inProgress = true;
-                searchAjax($('.result').length, scrollSuccess, true)
+                searchAjax($('.result').length, scrollSuccess, true, favoritesOnly)
             }
         }
     });
@@ -59,17 +59,17 @@ $(document).ready(function() {
         $('#results').append(response);
         inProgress = false
     }
-
 });
 
-function searchAjax(resultsLength, successFunction, asyncBool) {
+function searchAjax(resultsLength, successFunction, asyncBool, favoritesOnly) {
     $.ajax({
         type: 'GET',
         url: "/search/",
         data: {
             'search_text': $('#search-data').val(),
             'sort_text': $('.selected').text(),
-            'results_length': resultsLength
+            'results_length': resultsLength,
+            'favorites_only': favoritesOnly
         },
         async: asyncBool,
         success: successFunction,

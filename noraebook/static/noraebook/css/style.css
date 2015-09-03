@@ -276,5 +276,8 @@ p.title {
     margin-right: auto;
 }
 
+html, body {
+    overflow-y: visible;
+}
 
 

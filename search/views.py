@@ -3,6 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader, RequestContext
 from .models import Song, UserProfile
 from django.db.models import Q
+import json
 
 
 # Create your views here.
@@ -10,13 +11,10 @@ from django.db.models import Q
 
 def favorites(request):
     if request.user.is_authenticated():
-        template = loader.get_template('search/favorites.html')
         user_profile = UserProfile.objects.filter(user=request.user)[0]
         favorites_list = user_profile.favorites.order_by('title')
-        context = RequestContext(request, {
-            'songs_list': favorites_list[:],
-        })
-        return HttpResponse(template.render(context))
+        template = loader.get_template('search/index.html')
+        return index(request, favorites_list, favorites_list, True, template, True)
     else:
         return HttpResponseRedirect('/login/')
 
@@ -28,18 +26,33 @@ def search(request):
         search_list = search_text.split()
         sort_text = request.GET.get('sort_text').lower()
         results_length = int(request.GET.get('results_length'))
+        favorites_only = json.loads(request.GET.get('favorites_only'))
         if sort_text == "rank":
             sort_text = "-likes"
         if search_text != "":
-            songs_list = Song.objects.filter(Q(title__icontains=search_list[0]) |
-                                             Q(artist__icontains=search_list[0]),
-                                             approved=True).order_by(sort_text)
+            if not favorites_only:
+                songs_list = Song.objects.filter(Q(title__icontains=search_list[0]) |
+                                                 Q(artist__icontains=search_list[0]),
+                                                 approved=True).order_by(sort_text)
+            elif request.user.is_authenticated():
+                user_profile = UserProfile.objects.filter(user=request.user)[0]
+                songs_list = user_profile.favorites.filter(Q(title__icontains=search_list[0]) |
+                                                           Q(artist__icontains=search_list[0])).order_by(sort_text)
+            else:
+                return HttpResponseRedirect('/')
+
             if len(search_list) > 1:
                 for i in range(1, len(search_list)):
                     songs_list = songs_list.filter(Q(title__icontains=search_list[i]) |
                                                    Q(artist__icontains=search_list[i]))
         else:
-            songs_list = Song.objects.order_by(sort_text)
+            if not favorites_only:
+                songs_list = Song.objects.order_by(sort_text)
+            elif request.user.is_authenticated():
+                user_profile = UserProfile.objects.filter(user=request.user)[0]
+                songs_list = user_profile.favorites.order_by(sort_text)
+            else:
+                return HttpResponseRedirect('/')
         if songs_list.count() > max_results:
             scrollable = True
         else:
@@ -60,11 +73,15 @@ def search(request):
         favorites_list = user_profile.favorites.all()
     else:
         favorites_list = []
+    return index(request, favorites_list, songs_list, scrollable, template, False)
 
+
+def index(request, favorites_list, songs_list, scrollable, template, favorites):
     context = RequestContext(request, {
-        'favorites_list': favorites_list[:],
+        'favorites_list': favorites_list,
         'songs_list': songs_list,
-        'scrollable': scrollable
+        'scrollable': scrollable,
+        'favorites': favorites
     })
     return HttpResponse(template.render(context))
 
