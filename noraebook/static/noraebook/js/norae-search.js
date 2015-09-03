@@ -59,6 +59,8 @@ $(document).ready(function() {
         $('#results').append(response);
         inProgress = false
     }
+
+    $("#fav-var").remove()
 });
 
 function searchAjax(resultsLength, successFunction, asyncBool, favoritesOnly) {

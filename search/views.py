@@ -53,18 +53,12 @@ def search(request):
                 songs_list = user_profile.favorites.order_by(sort_text)
             else:
                 return HttpResponseRedirect('/')
-        if songs_list.count() > max_results:
-            scrollable = True
-        else:
-            scrollable = False
+        scrollable = is_scrollable(songs_list.count(), max_results)
         songs_list = songs_list[results_length:results_length + max_results]
         template = loader.get_template('search/search.html')
     else:
         songs_list = Song.objects.order_by('-likes')
-        if songs_list.count() > max_results:
-            scrollable = True
-        else:
-            scrollable = False
+        scrollable = is_scrollable(songs_list.count(), max_results)
         songs_list = songs_list[:max_results]
         template = loader.get_template('search/index.html')
 
@@ -74,6 +68,14 @@ def search(request):
     else:
         favorites_list = []
     return index(request, favorites_list, songs_list, scrollable, template, False)
+
+
+def is_scrollable(list_length, max_length):
+    if list_length > max_length:
+        is_scrollable = True
+    else:
+        is_scrollable = False
+    return is_scrollable
 
 
 def index(request, favorites_list, songs_list, scrollable, template, favorites):

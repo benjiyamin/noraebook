@@ -53,9 +53,7 @@
   {% if not debug %}
     <script src={% static 'noraebook/js/google-tracking.min.js' %}></script>
   {% endif %}
-  <script>
-    $(document).foundation();
-  </script>
+  <script>$(document).foundation();</script>
 
   {% block endscripts %}{% endblock %}
 </body>

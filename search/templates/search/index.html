@@ -75,13 +75,9 @@
 {% block endscripts %}
   <script type="text/javascript" src="{% static 'noraebook/js/csrf-ajax.js' %}"></script>
     {% if favorites %}
-      <script>
-        var favoritesOnly = true
-      </script>
+      <script id="fav-var">var favoritesOnly = true</script>
     {% else %}
-      <script>
-        var favoritesOnly = false
-      </script>
+      <script id="fav-var">var favoritesOnly = false</script>
     {% endif %}
   <script type="text/javascript" src="{% static 'noraebook/js/norae-search.js' %}"></script>
 {% endblock %}
