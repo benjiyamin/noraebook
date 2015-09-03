@@ -3,23 +3,19 @@ $(document).ready(function() {
     var inProgress = false;
 
     $('#search-data').keyup(function() {
-        /*
         if (!inProgress && ($(window).scrollTop() > 1)) {
             inProgress = true;
             $("html, body").animate({ scrollTop: 1 });
         }
-        */
         searchAjax(0, searchSuccess, true)
     });
 
     $(".sub-nav-clickable").click(function(event) {
         event.preventDefault();
-        /*
         if (!inProgress && ($(window).scrollTop() > 1)) {
             inProgress = true;
             $("html, body").animate({ scrollTop: 1 });
         }
-        */
         var elements = $(".sub-nav-clickable");
         for(var i=0; i<elements.length; i++) {
             if (elements[i] !== $(this)) {
