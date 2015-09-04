@@ -36,7 +36,7 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var scrollDiv = $("#scroll-div");
         if (scrollDiv.length) {
-            if(($(window).scrollTop() + $(window).height() >= scrollDiv.offset().top) && (!inProgress)) {
+            if(($(window).scrollTop() + $(window).height() >= scrollDiv.offset().top - 1000) && (!inProgress)) {
                 if (!($("#dvloader").length)) {
                     var loadHtml = '<div class="small-12 columns" id="dvloader"><img src="/static/noraebook/gif/loading.gif" id="gif-loader" height="36" width="36" /></div>';
                     $('#results').append(loadHtml);
