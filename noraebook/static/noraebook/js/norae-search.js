@@ -34,7 +34,21 @@ $(document).ready(function() {
     });
 
     $(window).scroll(function() {
-        if(($(window).scrollTop() + $(window).height() >= $(document).height() - 1) && (!inProgress)) {
+        var scrollDiv = $("#scroll-div");
+        if (scrollDiv.length) {
+            if(($(window).scrollTop() + $(window).height() >= scrollDiv.offset().top) && (!inProgress)) {
+                if (!($("#dvloader").length)) {
+                    var loadHtml = '<div class="small-12 columns" id="dvloader"><img src="/static/noraebook/gif/loading.gif" id="gif-loader" height="36" width="36" /></div>';
+                    $('#results').append(loadHtml);
+                    inProgress = true;
+                    searchAjax($('.result').length, scrollSuccess, true, favoritesOnly)
+                }
+            }
+        }
+    });
+    /*
+    $(window).scroll(function() {
+        if(($(window).scrollTop() + $(window).height() >= $(document).height()) && (!inProgress)) {
             if (!($("#dvloader").length) && ($("#scroll-div").length)) {
                 var loadHtml = '<div class="small-12 columns" id="dvloader"><img src="/static/noraebook/gif/loading.gif" id="gif-loader" height="36" width="36" /></div>';
                 $('#results').append(loadHtml);
@@ -43,7 +57,7 @@ $(document).ready(function() {
             }
         }
     });
-
+    */
     function searchSuccess(response) {
         $('#results').html(response);
         $.getScript('/static/noraebook/js/norae-favorite.js');
