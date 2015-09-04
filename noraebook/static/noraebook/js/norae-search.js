@@ -34,7 +34,7 @@ $(document).ready(function() {
     });
 
     $(window).scroll(function() {
-        if(($(window).scrollTop() + $(window).height() >= $(document).height()) && (!inProgress)) {
+        if(($(window).scrollTop() + $(window).height() >= $(document).height() - 1) && (!inProgress)) {
             if (!($("#dvloader").length) && ($("#scroll-div").length)) {
                 var loadHtml = '<div class="small-12 columns" id="dvloader"><img src="/static/noraebook/gif/loading.gif" id="gif-loader" height="36" width="36" /></div>';
                 $('#results').append(loadHtml);
