@@ -4,6 +4,7 @@ from django.template import loader, RequestContext
 from .models import Song, UserProfile
 from django.db.models import Q
 import json
+import random
 
 
 # Create your views here.
@@ -29,7 +30,14 @@ def search(request):
         favorites_only = json.loads(request.GET.get('favorites_only'))
         if sort_text == "rank":
             sort_text = "-likes"
-        if search_text != "":
+
+        if sort_text == "random 10":
+            all_list = Song.objects.all()
+            songs_length = all_list.count()
+            random_pks = [random.randint(0, songs_length - 1) for i in range(max_results)]
+            songs_list = Song.objects.filter(pk__in=random_pks)[:10]
+
+        elif search_text != "":
             if not favorites_only:
                 songs_list = Song.objects.filter(Q(title__icontains=search_list[0]) |
                                                  Q(artist__icontains=search_list[0]),
@@ -72,10 +80,10 @@ def search(request):
 
 def is_scrollable(list_length, max_length):
     if list_length > max_length:
-        is_scrollable = True
+        scrollable = True
     else:
-        is_scrollable = False
-    return is_scrollable
+        scrollable = False
+    return scrollable
 
 
 def index(request, favorites_list, songs_list, scrollable, template, favorites):

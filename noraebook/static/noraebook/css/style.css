@@ -69,7 +69,7 @@ input[type="text"], input[type="number"], select {
 
 .search {
     position: relative;
-    padding-top: 20px;
+    padding-top: 0.9375rem;
     margin-bottom: 0;
     background-color: #FFFFFF;
 }
@@ -122,6 +122,10 @@ a {
     border-top: 6px solid #27ae60;
 }
 
+.search-box {
+    box-shadow: 0 5px 6px -6px;
+}
+
 .top-bar {
     background: #27ae60;
 }
@@ -155,8 +159,15 @@ a {
     background: #27ae60;
 }
 
+.sub-nav dd a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 .sub-nav dd.active a {
     background: #27ae60;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 

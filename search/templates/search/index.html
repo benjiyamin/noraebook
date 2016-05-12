@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 {% extends "noraebook/base.html" %}
 
 {% block header %}
@@ -8,7 +7,7 @@
 
 {% block nav %}
   <div class="row">
-    <div class="small-12 columns">
+    <div class="small-12 columns search-box">
       <div class="row search collapse">
         <i class="fi-magnifying-glass"></i>
         {% if not favorites %}
@@ -17,7 +16,6 @@
           <input type="text" class="search-field" id="search-data" placeholder="Search through your favorites..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
         {% endif %}
         <dl class="sub-nav">
-          <dt>Sort By:</dt>
           {% if not favorites %}
             <dd class="active"><a class="sub-nav-clickable selected" href="#">Rank</a></dd>
             <dd><a class="sub-nav-clickable not-selected" href="#">Title</a></dd>
@@ -26,6 +24,9 @@
             <dd class="active"><a class="sub-nav-clickable selected" href="#">Title</a></dd>
           {% endif %}
           <dd><a class="sub-nav-clickable not-selected" href="#">Artist</a></dd>
+          {% if not favorites %}
+            <dd><a class="sub-nav-clickable not-selected" href="#">Random 10</a></dd>
+          {% endif %}
         </dl>
       </div>
     </div>
@@ -35,7 +36,7 @@
 {% block content %}
   <div class="row">
     <div class="small-12 columns" id="results">
-      {% if songs_list %}
+      {% if songs_list|length > 0 %}
         {# {% csrf_token %} #}
         {% for song in songs_list %}
           <div class="result small-12 columns"{% if forloop.last and scrollable %} id="scroll-div"{% endif %}>
@@ -64,7 +65,9 @@
           </div>
         {% endfor %}
       {% else %}
-        <p></p>
+        <div class="small-12 columns">
+          <h4>Looks like you have no favorites stored yet. Start liking songs to add to this list!</h4>
+        </div>
       {% endif %}
     </div>
   </div>

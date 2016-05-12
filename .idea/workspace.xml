@@ -2,7 +2,318 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="058daa21-fe27-415e-8f38-fc2fb55d85fd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search/templates/search/favorites.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/templates/noraebook/404.html" afterPath="$PROJECT_DIR$/noraebook/templates/noraebook/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/templates/noraebook/500.html" afterPath="$PROJECT_DIR$/noraebook/templates/noraebook/500.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/templates/noraebook/base.html" afterPath="$PROJECT_DIR$/noraebook/templates/noraebook/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/js/csrf-ajax.js" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/js/csrf-ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/csv2db.py" afterPath="$PROJECT_DIR$/csv2db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-address-book.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-address-book.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-alert.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-alert.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-align-center.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-align-center.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-align-justify.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-align-justify.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-align-left.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-align-left.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-align-right.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-align-right.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-anchor.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-anchor.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-annotate.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-annotate.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-archive.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-archive.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrow-down.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrow-down.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrow-left.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrow-left.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrow-right.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrow-right.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrow-up.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrow-up.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrows-compress.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrows-compress.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrows-expand.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrows-expand.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrows-in.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrows-in.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrows-out.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-arrows-out.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-asl.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-asl.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-asterisk.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-asterisk.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-at-sign.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-at-sign.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-background-color.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-background-color.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-battery-empty.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-battery-empty.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-battery-full.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-battery-full.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-battery-half.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-battery-half.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bitcoin-circle.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bitcoin-circle.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bitcoin.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bitcoin.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-blind.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-blind.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bluetooth.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bluetooth.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bold.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bold.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-book-bookmark.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-book-bookmark.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-book.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-book.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bookmark.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-bookmark.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-braille.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-braille.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-burst-new.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-burst-new.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-burst-sale.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-burst-sale.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-burst.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-burst.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-calendar.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-calendar.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-camera.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-camera.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-check.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-check.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-checkbox.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-checkbox.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-clipboard-notes.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-clipboard-notes.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-clipboard-pencil.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-clipboard-pencil.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-clipboard.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-clipboard.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-clock.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-clock.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-closed-caption.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-closed-caption.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-cloud.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-cloud.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comment-minus.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comment-minus.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comment-quotes.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comment-quotes.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comment-video.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comment-video.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comment.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comment.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comments.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-comments.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-compass.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-compass.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-contrast.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-contrast.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-credit-card.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-credit-card.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-crop.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-crop.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-crown.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-crown.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-css3.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-css3.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-database.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-database.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-five.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-five.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-four.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-four.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-one.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-one.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-six.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-six.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-three.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-three.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-two.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-die-two.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-dislike.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-dislike.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-dollar-bill.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-dollar-bill.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-dollar.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-dollar.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-download.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-download.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-eject.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-eject.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-elevator.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-elevator.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-euro.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-euro.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-eye.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-eye.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-fast-forward.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-fast-forward.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-female-symbol.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-female-symbol.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-female.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-female.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-filter.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-filter.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-first-aid.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-first-aid.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-flag.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-flag.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-folder-add.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-folder-add.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-folder-lock.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-folder-lock.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-folder.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-folder.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-foot.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-foot.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-foundation.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-foundation.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-graph-bar.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-graph-bar.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-graph-horizontal.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-graph-horizontal.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-graph-pie.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-graph-pie.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-graph-trend.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-graph-trend.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-guide-dog.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-guide-dog.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-hearing-aid.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-hearing-aid.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-heart.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-heart.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-home.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-home.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-html5.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-html5.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-indent-less.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-indent-less.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-indent-more.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-indent-more.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-info.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-info.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-italic.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-italic.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-key.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-key.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-laptop.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-laptop.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-layout.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-layout.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-lightbulb.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-lightbulb.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-like.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-like.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-link.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-link.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-list-bullet.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-list-bullet.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-list-number.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-list-number.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-list-thumbnails.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-list-thumbnails.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-list.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-list.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-lock.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-lock.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-loop.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-loop.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-magnifying-glass.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-magnifying-glass.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-mail.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-mail.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-male-female.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-male-female.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-male-symbol.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-male-symbol.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-male.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-male.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-map.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-map.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-marker.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-marker.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-megaphone.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-megaphone.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-microphone.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-microphone.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-minus-circle.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-minus-circle.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-minus.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-minus.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-mobile-signal.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-mobile-signal.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-mobile.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-mobile.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-monitor.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-monitor.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-mountains.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-mountains.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-music.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-music.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-next.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-next.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-no-dogs.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-no-dogs.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-no-smoking.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-no-smoking.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-add.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-add.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-copy.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-copy.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-csv.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-csv.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-delete.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-delete.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-doc.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-doc.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-edit.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-edit.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-export-csv.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-export-csv.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-export-doc.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-export-doc.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-export-pdf.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-export-pdf.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-export.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-export.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-filled.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-filled.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-multiple.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-multiple.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-pdf.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-pdf.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-remove.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-remove.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-search.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page-search.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-page.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-paint-bucket.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-paint-bucket.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-paperclip.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-paperclip.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-pause.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-pause.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-paw.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-paw.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-paypal.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-paypal.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-pencil.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-pencil.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-photo.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-photo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-play-circle.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-play-circle.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-play-video.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-play-video.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-play.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-play.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-plus.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-plus.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-pound.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-pound.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-power.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-power.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-previous.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-previous.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-price-tag.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-price-tag.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-pricetag-multiple.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-pricetag-multiple.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-print.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-print.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-prohibited.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-prohibited.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-projection-screen.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-projection-screen.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-puzzle.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-puzzle.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-quote.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-quote.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-record.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-record.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-refresh.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-refresh.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-results-demographics.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-results-demographics.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-results.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-results.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-rewind-ten.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-rewind-ten.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-rewind.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-rewind.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-rss.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-rss.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-safety-cone.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-safety-cone.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-save.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-save.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-share.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-share.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-sheriff-badge.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-sheriff-badge.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-shield.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-shield.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-shopping-bag.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-shopping-bag.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-shopping-cart.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-shopping-cart.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-shuffle.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-shuffle.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-skull.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-skull.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-500px.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-500px.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-adobe.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-adobe.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-amazon.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-amazon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-android.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-android.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-apple.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-apple.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-behance.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-behance.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-bing.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-bing.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-blogger.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-blogger.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-delicious.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-delicious.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-designer-news.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-designer-news.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-deviant-art.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-deviant-art.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-digg.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-digg.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-dribbble.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-dribbble.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-drive.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-drive.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-dropbox.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-dropbox.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-evernote.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-evernote.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-facebook.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-facebook.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-flickr.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-flickr.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-forrst.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-forrst.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-foursquare.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-foursquare.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-game-center.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-game-center.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-github.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-github.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-google-plus.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-google-plus.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-hacker-news.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-hacker-news.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-hi5.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-hi5.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-instagram.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-instagram.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-joomla.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-joomla.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-lastfm.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-lastfm.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-linkedin.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-linkedin.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-medium.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-medium.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-myspace.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-myspace.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-orkut.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-orkut.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-path.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-path.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-picasa.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-picasa.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-pinterest.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-pinterest.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-rdio.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-rdio.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-reddit.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-reddit.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-skillshare.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-skillshare.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-skype.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-skype.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-smashing-mag.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-smashing-mag.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-snapchat.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-snapchat.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-spotify.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-spotify.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-squidoo.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-squidoo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-stack-overflow.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-stack-overflow.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-steam.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-steam.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-stumbleupon.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-stumbleupon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-treehouse.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-treehouse.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-tumblr.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-tumblr.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-twitter.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-twitter.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-vimeo.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-vimeo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-windows.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-windows.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-xbox.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-xbox.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-yahoo.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-yahoo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-yelp.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-yelp.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-youtube.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-youtube.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-zerply.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-zerply.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-zurb.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-social-zurb.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-sound.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-sound.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-star.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-star.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-stop.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-stop.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-strikethrough.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-strikethrough.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-subscript.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-subscript.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-superscript.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-superscript.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-tablet-landscape.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-tablet-landscape.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-tablet-portrait.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-tablet-portrait.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-target-two.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-target-two.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-target.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-target.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-telephone-accessible.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-telephone-accessible.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-telephone.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-telephone.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-text-color.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-text-color.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-thumbnails.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-thumbnails.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-ticket.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-ticket.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torso-business.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torso-business.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torso-female.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torso-female.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torso.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torso.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos-all-female.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos-all-female.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos-all.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos-all.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos-female-male.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos-female-male.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos-male-female.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos-male-female.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-torsos.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-trash.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-trash.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-trees.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-trees.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-trophy.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-trophy.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-underline.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-underline.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-universal-access.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-universal-access.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-unlink.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-unlink.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-unlock.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-unlock.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-upload-cloud.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-upload-cloud.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-upload.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-upload.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-usb.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-usb.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-video.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-video.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-volume-none.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-volume-none.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-volume-strike.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-volume-strike.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-volume.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-volume.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-web.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-web.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-wheelchair.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-wheelchair.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-widget.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-widget.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-wrench.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-wrench.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-x-circle.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-x-circle.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-x.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-x.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-yen.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-yen.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-zoom-in.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-zoom-in.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-zoom-out.svg" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/icons/svgs/fi-zoom-out.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/forms.py" afterPath="$PROJECT_DIR$/login/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit/forms.py" afterPath="$PROJECT_DIR$/submit/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/js/google-tracking.min.js" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/js/google-tracking.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/templates/login/index.html" afterPath="$PROJECT_DIR$/login/templates/login/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/templates/search/index.html" afterPath="$PROJECT_DIR$/search/templates/search/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit/templates/submit/index.html" afterPath="$PROJECT_DIR$/submit/templates/submit/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/templates/login/logout.html" afterPath="$PROJECT_DIR$/login/templates/login/logout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/models.py" afterPath="$PROJECT_DIR$/search/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/js/norae-favorite.js" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/js/norae-favorite.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/noraebook.iml" afterPath="$PROJECT_DIR$/.idea/noraebook.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/templates/search/search.html" afterPath="$PROJECT_DIR$/search/templates/search/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/settings.py" afterPath="$PROJECT_DIR$/noraebook/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noraebook/static/noraebook/css/style.css" afterPath="$PROJECT_DIR$/noraebook/static/noraebook/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit/templates/submit/thanks.html" afterPath="$PROJECT_DIR$/submit/templates/submit/thanks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/urls.py" afterPath="$PROJECT_DIR$/login/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/urls.py" afterPath="$PROJECT_DIR$/search/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit/urls.py" afterPath="$PROJECT_DIR$/submit/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search/views.py" afterPath="$PROJECT_DIR$/search/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="noraebox.iws" />
@@ -47,29 +358,30 @@
         <entry file="file://$PROJECT_DIR$/search/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="67" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+              <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding>
                 <element signature="e#1#59#0" expanded="true" />
+                <marker date="1442180528100" expanded="true" signature="3643:3653" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/templates/search/index.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.807692">
-              <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/templates/search/search.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search/templates/search/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="91" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -78,8 +390,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noraebook/static/noraebook/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.344828">
-              <caret line="175" column="8" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search/templates/search/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -89,7 +411,7 @@
         <entry file="file://$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -98,18 +420,18 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noraebook/templates/noraebook/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/noraebook/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6319876">
-              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -175,15 +497,15 @@
         <option value="$PROJECT_DIR$/search/templates/search/search.html" />
         <option value="$PROJECT_DIR$/noraebook/static/noraebook/js/norae-scroll.js" />
         <option value="$PROJECT_DIR$/noraebook/static/noraebook/js/norae-favorite.js" />
-        <option value="$PROJECT_DIR$/search/templates/search/favorites.html" />
-        <option value="$PROJECT_DIR$/noraebook/static/noraebook/css/style.css" />
-        <option value="$PROJECT_DIR$/search/views.py" />
         <option value="$PROJECT_DIR$/noraebook/templates/noraebook/base.html" />
         <option value="$PROJECT_DIR$/noraebook/static/noraebook/js/headroom.js" />
         <option value="$PROJECT_DIR$/noraebook/static/noraebook/js/jQuery.headroom.js" />
-        <option value="$PROJECT_DIR$/search/templates/search/index.html" />
         <option value="$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js" />
+        <option value="$PROJECT_DIR$/search/templates/search/favorites.html" />
         <option value="$PROJECT_DIR$/noraebook/settings.py" />
+        <option value="$PROJECT_DIR$/noraebook/static/noraebook/css/style.css" />
+        <option value="$PROJECT_DIR$/search/views.py" />
+        <option value="$PROJECT_DIR$/search/templates/search/index.html" />
       </list>
     </option>
   </component>
@@ -195,10 +517,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="y" value="24" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -240,20 +561,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="submit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,56 +736,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="noraebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -492,10 +749,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../metasite/metasite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nimbus" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -514,8 +771,8 @@
       <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\noraebook" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\noraebook\static\noraebook\gif" />
       <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\archive" />
+      <recent name="C:\Users\millerb\Google Drive\web\noraebook\noraebook\noraebook\static\noraebook\gif" />
       <recent name="C:\Users\millerb\Google Drive\web\noraebook\scripts\csv" />
       <recent name="C:\Users\millerb\Google Drive\web\noraebox" />
       <recent name="C:\Users\millerb\Google Drive\web\noraebox\scripts" />
@@ -561,9 +818,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -811,18 +1065,6 @@
       <created>1439073085418</created>
       <option name="number" value="Default" />
       <updated>1439073085418</updated>
-    </task>
-    <task id="LOCAL-00048" summary="git updates">
-      <created>1440728662405</created>
-      <option name="number" value="00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1440728662405</updated>
-    </task>
-    <task id="LOCAL-00049" summary="git updates">
-      <created>1440757236138</created>
-      <option name="number" value="00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1440757236138</updated>
     </task>
     <task id="LOCAL-00050" summary="git updates">
       <created>1440761767205</created>
@@ -1106,7 +1348,19 @@
       <option name="project" value="LOCAL" />
       <updated>1441400393429</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="search engine optimization">
+      <created>1441401245527</created>
+      <option name="number" value="00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1441401245527</updated>
+    </task>
+    <task id="LOCAL-00098" summary="search engine optimization">
+      <created>1441401427146</created>
+      <option name="number" value="00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1441401427146</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1119,63 +1373,63 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.060989644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.035164837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34270272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15776698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.060989644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27444443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@noraebook" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22669736" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22327965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.035164837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49676377" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@noraebox" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19217491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49676377" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18261826" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@noraebook" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2766272" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27452025" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.060989644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49676377" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27452025" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6633663" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.060989644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17556635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@noraebox" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19217491" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49676377" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34270272" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17556635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18261826" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="manage.py@noraebook" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@noraebook" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32893288" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1211,34 +1465,51 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../nimbus/shell.py">
+    <entry file="file://$PROJECT_DIR$/search/templates/search/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="33" />
+          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="91" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a9928ebb/7aa96064-2d72-4c36-8088-e63d7cfb80a5/..webapp_song">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a9928ebb/7aa96064-2d72-4c36-8088-e63d7cfb80a5/..webapp_company">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/noraebook/templates/noraebook/base.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noraebook/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noraebook/templates/noraebook/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noraebook/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,13 +1579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/noraebook/templates/noraebook/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21871345">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/noraebook/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2122588">
@@ -1365,13 +1629,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/submit/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6d6ac2c5-6c72-472d-ad57-05586d92f91e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1431,13 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4775281">
           <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/templates/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1377953">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="37" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1502,58 +1752,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/templates/search/favorites.html">
+    <entry file="file://$PROJECT_DIR$/archive/favorites.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75242716">
-          <caret line="36" column="89" selection-start-line="36" selection-start-column="89" selection-end-line="36" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.76898223">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38406658">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/views.py">
+    <entry file="file://$PROJECT_DIR$/noraebook/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="67" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
-          <folding>
-            <element signature="e#1#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/noraebook/static/noraebook/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.344828">
-          <caret line="175" column="8" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="8" />
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/noraebook/templates/noraebook/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/templates/search/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.807692">
-          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/templates/search/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="91" />
           <folding />
         </state>
       </provider>
@@ -1561,15 +1778,64 @@
     <entry file="file://$PROJECT_DIR$/noraebook/static/noraebook/js/norae-search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/noraebook/settings.py">
+    <entry file="file://$PROJECT_DIR$/login/templates/login/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6319876">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.58679706">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noraebook/templates/noraebook/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2801358">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="e#1#59#0" expanded="true" />
+            <marker date="1442180528100" expanded="true" signature="3643:3653" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/templates/search/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/noraebook/static/noraebook/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/templates/search/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding />
         </state>
       </provider>
